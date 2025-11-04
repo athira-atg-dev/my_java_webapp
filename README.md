@@ -131,12 +131,13 @@ spec:
     targetPort: 8080
 
 🧠 Key Learnings
-
+```
 ✅ Implemented a multi-server CI/CD pipeline from scratch
 ✅ Automated build, push, and deploy using Jenkins + Ansible + EKS
 ✅ Set up GitHub webhook → Jenkins trigger for real-time updates
 ✅ Debugged & managed EKS, LoadBalancer, and AWS IAM permissions
 ✅ Deployed & scaled a Java web app in Kubernetes
+```
 
 🌐 Live Verification
 
