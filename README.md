@@ -137,8 +137,11 @@ Expected Output:
 
 {"message": "Hello from HelloServlet!"}
 
-📸 Demo Screenshots
-Jenkins Dashboard	Kubernetes Pods	Grafana Dashboard
+## 📸 Screenshots
+
+| Jenkins Dashboard | Kubernetes Pods | LoadBalancer Output |
+|------------------|-----------------|---------------------|
+| ![Jenkins Dashboard](./screenshots/jenkins-dashboard.png) | ![Kubernetes Pods](./screenshots/kubectl-get-pods.png) | ![LoadBalancer Output](./screenshots/loadbalancer-output.png) |
 
 💼 Author
 
