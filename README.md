@@ -139,9 +139,17 @@ Expected Output:
 
 ## 📸 Screenshots
 
-| Jenkins Dashboard | Kubernetes Pods | LoadBalancer Output |
-|------------------|-----------------|---------------------|
-| ![Jenkins Dashboard](./screenshots/jenkins-dashboard.png) | ![Kubernetes Pods](./screenshots/kubectl-get-pods.png) | ![LoadBalancer Output](./screenshots/loadbalancer-output.png) |
+Below are the screenshots showing different stages of the CI/CD pipeline:
+
+### 🧩 Jenkins Build Success
+![Jenkins Dashboard](./screenshots/jenkins-dashboard.png)
+
+### ☸️ Kubernetes Pods Running
+![Kubernetes Pods](./screenshots/kubectl-get-pods.png)
+
+### 🌐 Application via AWS LoadBalancer
+![LoadBalancer Output](./screenshots/loadbalancer-output.png)
+
 
 💼 Author
 
