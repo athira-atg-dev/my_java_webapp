@@ -1,0 +1,9 @@
+- name: Deploy App to EKS (local)
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Apply deployment
+      command: kubectl apply -f /home/ec2-user/my-java-web-app/k8s/deployment.yaml
+    - name: Apply service
+      command: kubectl apply -f /home/ec2-user/my-java-web-app/k8s/service.yaml
+

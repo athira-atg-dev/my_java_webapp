@@ -1,0 +1,9 @@
+- name: Build and Push Docker Image (local)
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Build Docker Image
+      command: docker build -t athiraasok/myapp:latest /home/ec2-user/my-java-web-app
+    - name: Push Docker Image
+      command: docker push athiraasok/myapp:latest
+
