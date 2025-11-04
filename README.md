@@ -168,6 +168,6 @@ Below are the screenshots showing different stages of the CI/CD pipeline:
 
 💻 DevOps Engineer (GitHub → Jenkins → Docker → K8s → AWS)
 
-🌍 Docker Hub: athiraasok
+🌍 Docker Hub: https://app.docker.com/accounts/athiraasok
 
-🧩 GitHub Repo
+🧩 GitHub Repo:https://github.com/athira-atg-dev
