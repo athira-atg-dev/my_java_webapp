@@ -164,7 +164,7 @@ Below are the screenshots showing different stages of the CI/CD pipeline:
 
 💼 Author
 
-👤 Athira Asok (Abhin’s Project)
+👤 Athira Asok (Athira's Project)
 
 💻 DevOps Engineer (GitHub → Jenkins → Docker → K8s → AWS)
 
