@@ -60,27 +60,33 @@ Output:
 
 {"message": "Hello from HelloServlet!"}
 
-🧩 Project Folder Structure
+## 🧩 Project Folder Structure
+
 
 my_java_webapp/
+├── ansible/
+│ ├── playbook_docker.yml
+│ └── k8s_deploy.yml
+│
+├── java-web-app/
+│ ├── pom.xml
+│ └── src/
+│ ├── main/java/api/servlet/HelloServlet.java
+│ └── main/webapp/WEB-INF/web.xml
+│
+├── k8s/
+│ ├── deployment.yaml
+│ └── service.yaml
+│
+├── screenshots/
+│ ├── jenkins-dashboard.png
+│ ├── kubectl-get-pods.png
+│ └── loadbalancer-output.png
 │
 ├── Dockerfile
 ├── Jenkinsfile
-├── pom.xml
-│
-├── src/
-│   ├── main/java/api/servlet/HelloServlet.java
-│   └── main/webapp/WEB-INF/web.xml
-│
-├── ansible/
-│   ├── playbook_docker.yml
-│   └── k8s_deploy.yml
-│
-├── k8s/
-│   ├── deployment.yaml
-│   └── service.yaml
-│
 └── README.md
+
 
 🧱 Key Kubernetes Files
 
