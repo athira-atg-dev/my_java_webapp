@@ -34,7 +34,9 @@ pipeline {
             steps {
                 sshagent(['ansible_ssh']) {
                     sh '''
-                    ssh -o StrictHostKeyChecking=no ec2-user@172.31.27.21 "ansible-playbook ~/k8s_deploy.yml"
+                    ssh -o StrictHostKeyChecking=no ec2-user@172.31.27.21 "
+                    ansible-playbook /home/ec2-user/my_java_webapp/ansible/k8s_deploy.yml
+                    "
                     '''
                 }
             }
