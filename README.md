@@ -137,7 +137,7 @@ Expected Output:
 
 {"message": "Hello from HelloServlet!"}
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
 Below are the screenshots showing different stages of the CI/CD pipeline:
 
